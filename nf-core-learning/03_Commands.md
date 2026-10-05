@@ -94,6 +94,18 @@ process {
 
 }
 ```
+### Why I Modified custom.config
+
+The default workflow configuration resulted in repeated failures during HISAT2 alignment.
+
+To reduce memory pressure and simplify debugging, I modified the workflow configuration by:
+
+- limiting the maximum number of concurrent processes (`maxForks = 1`)
+- restricting CPU allocation
+- allocating more memory to the HISAT2 alignment step
+- adjusting HISAT2 alignment parameters
+
+The `--very-sensitive --mp 2,1` option was added to test whether alignment sensitivity could be improved and potentially increase the observed mapping rate.
 
 ---
 
