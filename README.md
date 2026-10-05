@@ -1,24 +1,16 @@
 # Takuma Miyagawa
 
-Biology student interested in Bioinformatics.
+Undergraduate student interested in bioinformatics, genomics, and computational biology.
 
-## Current Interests
+Currently learning:
 
 - RNA-seq analysis
-- Nextflow
-- nf-core
-- Linux
-- Python
+- Nextflow and nf-core workflows
+- Python for scientific computing
+- Linux and workflow management
 
-## Projects
+## Current Project
 
 ### nf-core Learning
 
-Learning records of RNA-seq analysis using nf-core/rnaseq.
-
-Topics:
-- Installation
-- Environment setup
-- Workflow execution
-- Troubleshooting
-- Resource management
+This repository documents my hands-on experience with RNA-seq analysis using nf-core/rnaseq, including workflow execution, troubleshooting, and resource management.
