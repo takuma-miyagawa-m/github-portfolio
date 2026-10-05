@@ -54,7 +54,7 @@ Swap: 16 GiB
 
 This project was executed on Ubuntu running under WSL2.
 Workflows were managed with Nextflow and executed in Docker containers.
-```
+
 ## Project Structure
 
 ```text
