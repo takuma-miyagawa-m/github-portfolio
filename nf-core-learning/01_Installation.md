@@ -83,9 +83,4 @@ Output:
 Docker version 29.4.1
 ```
 
-## What I Learned
 
-Through this installation process, I learned:
-
-- The role of Nextflow in workflow management
-- The dependency
