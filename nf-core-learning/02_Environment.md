@@ -48,7 +48,7 @@ Swap: 16 GiB
 
 ## Reference Genome
 
-- Amphioctopus fangsiao genome assembly
+- *Amphioctopus fangsiao* genome assembly
 
 ## Notes
 
