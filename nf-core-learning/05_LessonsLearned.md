@@ -47,7 +47,7 @@ I learned how to:
 
 During this project, I explored different alignment strategies, including HISAT2 and STAR.
 
-HISAT2 was selected because it is generally considered more memory-efficient than STAR for many RNA-seq workflows.
+HISAT2 was selected because it is often considered more memory-efficient than STAR, making it a suitable choice for a laptop-based analysis environment.
 
 However, despite using HISAT2 and adjusting workflow resource settings, RNA-seq alignment against the *Amphioctopus fangsiao* genome could not be completed on my laptop environment.
 
