@@ -4,23 +4,7 @@ This document records the major commands used while learning Nextflow and runnin
 
 ---
 
-## Step 1: Install Nextflow
-
-```bash
-curl -s https://get.nextflow.io | bash
-chmod +x nextflow
-sudo mv nextflow /usr/local/bin
-```
-
-Verify installation:
-
-```bash
-nextflow info
-```
-
----
-
-## Step 2: Learn Nextflow Basics
+## Step 1: Learn Nextflow Basics
 
 Run the tutorial workflow.
 
@@ -28,7 +12,7 @@ Run the tutorial workflow.
 nextflow run tutorial.nf
 ```
 
-Re-run a modified workflow using cache:
+Re-run the workflow using cached results:
 
 ```bash
 nextflow run tutorial.nf -resume
@@ -36,7 +20,7 @@ nextflow run tutorial.nf -resume
 
 ---
 
-## Step 3: Run nf-core Test Dataset
+## Step 2: Run nf-core Test Dataset
 
 Test the nf-core/rnaseq workflow.
 
@@ -49,7 +33,7 @@ nextflow run nf-core/rnaseq \
 
 ---
 
-## Step 4: Run RNA-seq Analysis
+## Step 3: Run RNA-seq Analysis
 
 Run nf-core/rnaseq using a custom reference genome.
 
@@ -68,7 +52,7 @@ nextflow run nf-core/rnaseq \
 
 ---
 
-## Step 5: Resource Optimization
+## Step 4: Resource Optimization
 
 Modified resource allocation using a custom configuration file.
 
@@ -109,7 +93,7 @@ The `--very-sensitive --mp 2,1` option was added to test whether alignment sensi
 
 ---
 
-## Step 6: Alternative Alignment Test
+## Step 5: Alternative Alignment Test
 
 Run the workflow using STAR.
 
@@ -127,7 +111,7 @@ nextflow run nf-core/rnaseq \
 
 ---
 
-## Step 7: Troubleshooting
+## Step 6: Troubleshooting
 
 Inspect Nextflow logs.
 
