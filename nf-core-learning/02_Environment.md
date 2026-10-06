@@ -37,6 +37,7 @@ Docker 29.4.1
 RAM : 27 GiB
 Swap: 16 GiB
 ```
+Although the laptop was equipped with 32 GB of physical memory, the WSL environment was configured to use approximately 27 GiB of RAM.
 
 ## Workflow
 
