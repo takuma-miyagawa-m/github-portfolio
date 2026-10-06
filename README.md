@@ -26,7 +26,7 @@ This repository documents my experience learning and running the nf-core/rnaseq 
 Topics include:
 
 - workflow management with Nextflow
-- Docker-based analysis
+- running nf-core workflows with Docker
 - RNA-seq alignment with HISAT2
 - troubleshooting workflow failures
 - investigating out-of-memory (OOM) errors
